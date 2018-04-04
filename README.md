@@ -1,4 +1,4 @@
-# Introduction à la programmation fonctionnelle WIP
+**INTRODUCTION A LA PROGRAMMATION FONCTIONNELLE**
 
 - [Introduction à la programmation fonctionnelle](#introduction-%C3%A0-la-programmation-fonctionnelle)
     - [Introduction](#introduction)
@@ -18,6 +18,7 @@
             - [la programmation par contraintes](#la-programmation-par-contraintes)
             - [la programmation fonctionnelle](#la-programmation-fonctionnelle)
     - [Autres paradigmes](#autres-paradigmes)
+# Introduction à la programmation fonctionnelle WIP
 
 ## Introduction
 
@@ -136,7 +137,8 @@ Une contrainte est une relation logique (propriété à vérifier) entre différ
 
 #### la programmation fonctionnelle
 
-La programmation fonctionnelle est un programme dans laquelle les fonctions sont similaires a des fonctions mathématiques, nous n'en disont pas plus puisque c'est le sujet du reste de ce document
+La programmation fonctionnelle est un programme dans laquelle les fonctions sont similaires a des fonctions mathématiques. Une fonction mathématique doit être courte et ne fait qu'une seule chose à la fois (Principe de la responsabilité unique ou SRP), les fonctions sont ensuite utilisés ensemble pour créer des traitement plus complexe.
+Nous n'en disont pas plus puisque c'est le sujet du reste de ce document.
 
 ## Autres paradigmes
 
@@ -148,5 +150,7 @@ Les langages de programmation suivent tous au moins un des différents paradigme
 - la programmation réactive
 - la programmation non-déterministe
 - la programmation synchrone
+
+# Concepts de la programmation fonctionnelle
 
 
