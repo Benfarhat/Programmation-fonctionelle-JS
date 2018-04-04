@@ -1,4 +1,4 @@
-# Introduction à la programmation fonctionnelle 
+# Introduction à la programmation fonctionnelle WIP
 
 - [Introduction à la programmation fonctionnelle](#introduction-%C3%A0-la-programmation-fonctionnelle)
     - [Introduction](#introduction)
@@ -25,7 +25,7 @@ Tous les développeurs front-end ont toujours un process interne de suivi, tests
 
 ## Paradigme de programmation
 
-Un développeur informatique comme pour toute les autres professions, est la pour satisfaire un besoin et pour atteindre ce besoin il faut résoudre un certain nombre de problèmes. 
+Un développeur informatique comme pour toute les autres professions, est la pour satisfaire un besoin et pour atteindre ce besoin il faut résoudre un certain nombre de problèmes via notamment une réduction analytique du problème en le décomposant en sous problèmes moins complexes 
 Par analogie, le besoin est la destination ou vous voulez vous rendre, et le développeur n'est rien d'autre que le chauffeur. Il y a plusieurs facon de faire, certains choisirons le chemin le plus court, le plus logique a leur sens et qui sera éventuellement parsemer d'embuches, d'autres préfèreront le chemin le plus long mais avec le moins d'obstacles. 
 Les différentes `approches` possible permettant de résoudre vos problèmes pour satisfaire un besoin, ce sont les paradigmes. Chaque paradigme repose sur un ensemble de concepts de programmation, des concepts qui sont parfois très voisins. Un langage de programmation peut suivre un ou plusieurs paradigmes (multi-paradigme), ceci est possible parce que certains concepts d'un paradigme à un autre se ressemble. 
 
@@ -46,6 +46,7 @@ En programmation, il existe trois grandes familles de paradigme à savoir:
 ### programmation impérative
 Si lors de notre programmation on impose les étapes que l'on doit "impérativement" faire pour résoudre nos problèmes, alors vous l'aurez compris, on parle de programmation impérative. C'est ce qui a notre sens, semble le plus naturel, mais n'est pas forcément la meilleure approche à utiliser.
 La programmation impérative est composé de "sous catégories" à savoir la `programmation structurée` et la `programmation procédurale`.
+
 
 #### La programmation structurée 
 
@@ -113,17 +114,29 @@ Pour revenir à nos moutons, alors que la programmation impérative s'occupe du 
 
 #### Programmation descriptive
 
-
+Comme son nom l'indique, ce paradigme se base sur la description, ca n'est pas de la programmation à proprement parlé, le HTML va nous permettre via les tags (balises) et attributs de décrire l'aspect de votre document, alors que par exemple le XML va permettre de définir les données à échanger. On parle de déclarativité descriptive.
 
 #### la programmation logique
+
+En programmation logique, on ne décrit pas le "comment faire" mais plutot le "que faire", les fonctons et procédures sont appelé formule et l'exécution, une preuve. 
+On y décrit ce que l'on sait sur le domaine étudié (c'est ce qu'on appelle en Intelligence Artificielle une base de connaissances) puis on décrit notre problème (objets concernés, propriétés et relations qu'ils vérifient) via les prédicats et le langage va selon un mécanisme de résolution intégré, parcourir de façon non déterministe toutes les possibilités du problème et calcule les solutions.
+
+En logique, un prédicat serait par exemple un étudient appelé Mehdi (son nom) et qui est en spécialité Génie logiciel (les arguments),  le nombre d'arguments du prédicat s'appelle arité (unaire, binaire, ternaire, ..., n-aire)
 
 
 
 #### la programmation par contraintes
 
+La programmation par contraintes est un paradigme ou l'utilisateur définit le problème et l'aordinateur le résout tout en respectant certaines contraintes. Une contrainte est une relation logique (propriété à vérifier) entre différentes inconnues (variables), chacune prenant des valeurs dans un ensemble donnée (domaine). Une contrainte restreint les valeurs que peuvent prendre simultanément les variables.
+La résolution d'un jeu d'echec en est le meilleure exemple, puisque pour chaque pièces de types différents (roi, dame, tours, fous, cavaliers et pions), on pour chacun un déplacement sur l'échuiquier qui lui est propre.
 
+> Pour la petite histoire, le terme "echec et mat" provient de l'arabe qui dit "echeikh met" ce qui veut dire le roi (cheikh) est mort (met)
+
+Une contrainte est une relation logique (propriété à vérifier) entre différentes inconnues (variables), chacune prenant des valeurs dans un ensemble donnée (domaine). Une contrainte restreint les valeurs que peuvent prendre simultanément les variables.
 
 #### la programmation fonctionnelle
+
+La programmation fonctionnelle est un programme dans laquelle les fonctions sont similaires a des fonctions mathématiques, nous n'en disont pas plus puisque c'est le sujet du reste de ce document
 
 ## Autres paradigmes
 
